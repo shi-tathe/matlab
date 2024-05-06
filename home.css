@@ -1,0 +1,205 @@
+body{
+    height:3000px;
+    margin:auto;
+    background: url("image/book.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow:scroll;
+}
+
+*{
+  margin:0px;
+  padding:0px;
+  font-family: sans-serif; 
+}
+header{
+    height:70px;
+    background-color:rgb(190, 111, 111);
+}
+#search{
+    float:left;
+    font-size:30px;
+    color:white;
+    margin-left:15px;
+    margin-top:9px;
+    
+}
+    
+.slogo{
+    width:60px;
+}
+#logo{
+    height:150px;
+    width:150px;
+    background-color: rgb(69, 136, 56);
+    border-radius: 50%;
+    margin-top: 0%;
+    margin-left: 45%;
+    position: relative;
+    font-size:30px;
+    color:black;
+    animation:move 5s ease-in-out infinite;
+
+}
+@keyframes move{
+    0%{
+        top:0px;
+        left:0px;
+        
+    }
+    25%{
+       right:350px;
+       left:0px;
+    }
+    50%{
+        left:200px;
+        transform:rotate(360deg);
+    }
+    75%{
+        left:400px;
+        right:400px;
+
+    }
+    100%{
+        left:0px;
+        right:0%;
+    }
+} 
+
+#logo>span{
+    margin-top:35%;
+    margin-left:22%;
+    position:absolute;
+
+}*/
+
+.nav{
+    float: right;
+    margin-right:35px;
+    margin-top: 0px;
+    position:absolute;
+    top:0px;
+    right:22px;
+    padding-right: 35px;
+
+}
+.nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:12px 20px;
+    }
+.nav ul li a{
+    text-decoration: none;
+    text-align:center;
+}    
+.nav ul li a:hover{
+    color:blue;
+    text-decoration: none;
+}
+.detail{
+    /*border:2px solid black;*/
+   margin-left:10%;
+    margin-top:0%;
+    margin-right:28%;
+}
+.detail h1{
+    font-size:50px;
+    color:black;
+    margin-bottom:20px;
+
+}
+span:hover{
+    color:orange;
+    cursor:pointer;
+}
+.detail p{
+    color:brown;
+    line-height: 30px;
+    
+}
+.detail a{
+    background-color:rgb(255, 0, 136);
+    padding:10px 18px;
+    text-decoration:none;
+    font-weight:bold;
+    color:aliceblue;
+    display:inline-block;
+    margin:30px 0px;
+    border-radius:5px;
+
+}
+.images{
+    width:17%;
+    height:210px;
+    position:absolute;
+    bottom:240px;
+    right:100px;
+    left:790px;
+    top:227px;
+    /*border:2px solid red;*/
+    
+    }
+    .images img{
+        height:205px;
+        width:100%;
+        position:absolute;
+       /* right:5%;*/
+        bottom:4%;
+        top:1%;
+    
+    }
+   
+footer{
+    height:60px;
+    margin-top:35%;
+    margin-bottom:10%;
+    
+}
+#skill{
+    
+    text-align:center;
+    justify-items:center;
+    font-size:42px;
+    font-weight:bold;
+    background-color:rgb(0, 255, 217)
+}
+.skill-info{
+    height:100px;
+    border:2px solid black;
+
+    
+    
+}
+#hobbies{
+       text-align:center;
+       font-size:42px;
+       font-weight:bold;
+       background-color:yellow ;
+}
+ li{
+    font-size:53px;
+}
+#education{
+    text-align:center;
+    font-size:42px;
+    font-weight:bold;
+    background-color:orange;
+ h1{
+    font-size:73px;
+ }   
+
+#map{
+       text-align:center;
+       font-size:45px;
+       background-color: rgb(209, 73, 152);
+       
+ }  
+ 
+}
+ .row{
+    height:100px;
+   /* border:2px solid red;*/
+ }
+
+   
